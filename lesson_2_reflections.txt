@@ -14,10 +14,16 @@ What value do you think it offers?
 How can you use the staging area to make sure you have one commit per logical
 change?
 
-	
+	Add all the files that constitute the change to the staging area and then
+	commit them in one commit.
 
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
+
+	For trying out new features or experimenting with a change that may not be
+	added to the main branch. Branches allow you to keep a track of the changes
+	separately from the master branch and then merge them with the master at a
+	later point in time if needed.
 
 How do the diagrams help you visualize the branch structure?
 
