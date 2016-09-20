@@ -18,3 +18,19 @@ instead of another?
 	Branches are created within a repository when you want to experiment with a new
 	feature without impacting anyone. You can merge a branch into another branch once
 	done.
+
+What is the benefit of having a copy of the last known state of the remote stored locally?
+
+	It allows you to work without being connected to the network.
+
+How would you collaborate without using Git or GitHub? What would be easier, and what 
+would be harder?
+
+	Collaborating without using GitHub would be harder since the communications would
+	need to be via email, phone or instant messaging. GitHub integrates the communication
+	process into the development process and makes it much easier by providing context-
+	sensitive communication. The feature to review the code changes online and merge the
+	pull request is pretty cool. However, it needs to be emphasized that the person(s)
+	responsible for the master need to build a regression test suite to ensure that the
+	pull request does not break existing functionality.
+	
