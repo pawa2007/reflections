@@ -34,3 +34,14 @@ would be harder?
 	responsible for the master need to build a regression test suite to ensure that the
 	pull request does not break existing functionality.
 	
+When would you want to make changes in a separate branch rather than directly in master? 
+What benefits does each approach have?
+
+	The main advantage of making changes in a separate branch is the ability to get the
+	code reviewed by your collaborators and evolve it before making it a part of the
+	master branch. This allows you the ability to abandon a proposed change if needed
+	without impacting working functionality. If this feature was not available, you would
+	have to "undo" the changes to the master if the changes are to be backed out which
+	increases the probability of introducing bugs. Thus branching allows us to improve
+	the quality of the final code by organizing the work in manageable chunks.
+
